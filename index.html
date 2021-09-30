@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de tipos</title>
+    <link rel="stylesheet" href="./css/stylo.css"/>
+</head>
+
+<body>
+    <div>
+        <!--Cabecera del documento en h1-->
+        <header>
+            <h1>Decimal, Binario, Octal, Hexadecimal</h1>
+        </header>
+        <!--Seccion con el titulo de conversor de tipos-->
+        <section>
+            <article>
+                <h2>Conversor de tipos</h2>
+            </article>
+        </section>
+
+        <section>
+            
+           <!--Articulo que incuye la introduccion del numero a cambiar-->
+            <article>
+                <h2>Conversion entre sistemas de numeracion</h2>
+                <h3>Numero:</h3>
+                <input type="text" id="numero"></input>
+            </article>
+            <!--Articulo que que muestra la lista desplegable con las opciones que se van a convertir -->
+            <article>
+                <h3>Elige tipo de conversion</h3>
+                <select id="modo">
+                    <optgroup label="De Decimal a">
+                        <option value="1"> Binario</option>
+                        <option value="2"> Octal</option>
+                        <option value="3"> Hexadecimal</option>
+                    </optgroup>
+                    <optgroup label="De  tipo  a Decimal">
+                        <option value="4">Binario </option>
+                        <option value="5">Octal </option>
+                        <option value="6">Hexadecimal </option>
+                    </optgroup>
+                </select>
+            </article>
+            <!--Articulo que incuye el resultado que se va a mostrar-->
+            <article>
+                <h3>Resultado:</h3>
+                <input type="text" id="resultado"></input>
+            </article>
+        </section>
+        <!--Pie de pagina-->
+
+        <footer>
+            <hr>
+            <p>Patricia Sualdea</p>
+            <p>CIFP Santa Catalina 2021/2022 </p>
+        </footer>
+    </div>
+    <!--Script que se va a ejecutar-->
+    <script type= "text/javascript" src="./js/funciones.js"></script>
+</body>
+
+</html>

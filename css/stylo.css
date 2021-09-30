@@ -1,0 +1,15 @@
+header{
+    border-style: outset;
+    background-color: #ccffff;
+}
+section {
+    background-color: lightblue;
+    border-style:solid;
+    margin: 3%; 
+}
+article{
+    margin: 1%;
+}
+h3{
+text-decoration: underline;
+}
